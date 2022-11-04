@@ -4,7 +4,7 @@
  * @param {string} t
  * @return {boolean}
  */
-const isAnagram = function (s, t) {
+const validAnagram = function (s, t) {
   if (s.length != t.length) return false;
 
   const hashMap = {};
