@@ -18,14 +18,9 @@ const validPalindrome = function (s) {
   let n = 0;
   let k = res.length - 1;
 
-  while (n < res.length) {
-    while (k >= 0) {
-      if (res[n] != res[k]) {
-        return false;
-      }
-
-      k--;
-      n++;
+  while (n < k) {
+    if (res[n++] != res[k--]) {
+      return false;
     }
   }
 
