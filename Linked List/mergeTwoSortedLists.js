@@ -5,6 +5,7 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/
  * @param {ListNode} list1

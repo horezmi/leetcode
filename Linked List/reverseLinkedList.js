@@ -5,6 +5,7 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
 /**
  * https://leetcode.com/problems/reverse-linked-list/
  * @param {ListNode} head
