@@ -15,7 +15,7 @@ const reverseLinkedList = function (head) {
   let previous = null;
 
   while (current != null) {
-    let tmp = current.next;
+    const tmp = current.next;
     current.next = previous;
     previous = current;
     current = tmp;
