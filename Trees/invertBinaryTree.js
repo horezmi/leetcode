@@ -12,7 +12,7 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-var invertBinaryTree = function (root) {
+const invertBinaryTree = function (root) {
   if (!root) return null;
 
   const tmp = root.left;
