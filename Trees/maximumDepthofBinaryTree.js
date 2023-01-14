@@ -12,14 +12,14 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const maximumDepthofBinaryTree = function (root) {
+const maximumDepthOfBinaryTree = function (root) {
   if (!root) return 0;
 
   return (
     1 +
     Math.max(
-      maximumDepthofBinaryTree(root.left),
-      maximumDepthofBinaryTree(root.right)
+      maximumDepthOfBinaryTree(root.left),
+      maximumDepthOfBinaryTree(root.right)
     )
   );
 };
